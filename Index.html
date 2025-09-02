@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fashionista - Fashion Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-color: #f8f8f8;
+    }
+
+    header {
+      background-color: #111;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-image: url('https://via.placeholder.com/1200x400?text=Fashion+Store');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+    }
+
+    .products {
+      padding: 40px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .product {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .product h3 {
+      margin: 10px 0 5px;
+    }
+
+    .product p {
+      margin: 0;
+      color: #888;
+    }
+
+    footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <h2>Fashionista</h2>
+    </div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>New Season. New Style.</h1>
+  </section>
+
+  <section class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/200x250?text=Jacket" alt="Jacket">
+      <h3>Stylish Jacket</h3>
+      <p>$49.99</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/200x250?text=Dress" alt="Dress">
+      <h3>Summer Dress</h3>
+      <p>$39.99</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/200x250?text=Shoes" alt="Shoes">
+      <h3>Classic Shoes</h3>
+      <p>$59.99</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/200x250?text=Bag" alt="Bag">
+      <h3>Leather Bag</h3>
+      <p>$79.99</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Fashionista. All rights reserved.
+  </footer>
+
+</body>
+</html>
